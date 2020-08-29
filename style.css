@@ -39,7 +39,7 @@ h1 {
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 3s00px) {
   #entries {
     background: lightgoldenrodyellow;
     padding: 5em;
