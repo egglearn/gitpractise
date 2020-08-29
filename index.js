@@ -2,7 +2,7 @@ const entries = document.getElementById("entries");
 const button = document.getElementById("button");
 const form = document.getElementById("form");
 const entriesSection = document.getElementById("entries-section");
-
+const ok = "ok";
 const addEntry = (event) => {
   console.log("works");
   event.preventDefault();
