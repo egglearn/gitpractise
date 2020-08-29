@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+  width: 800px;
   margin: 0 auto;
   border: solid 2px black;
 }
@@ -44,7 +45,11 @@ h1 {
   color: black;
 }
 
-@media (max-width: 3s00px) {
+@media (max-width: 300px) {
+  .container {
+    width: 100%;
+  }
+
   #entries {
     background: lightgoldenrodyellow;
     padding: 5em;
