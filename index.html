@@ -8,16 +8,22 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Note Taker</h1>
-    <h2>Made a Change to File</h2>
+    <div class="container">
+      <h1>Note Taker</h1>
 
-    <form id="form">
-      <textarea id="entries" type="text"> </textarea>
-      <br />
-      <button id="button" type="submit">submit</button>
-    </form>
+      <form id="form">
+        <textarea
+          id="entries"
+          type="text"
+          placeholder="enter your notes here.."
+        >
+        </textarea>
+        <br />
+        <button id="button" type="submit">submit</button>
+      </form>
 
-    <div id="entries-section"></div>
+      <div id="entries-section"></div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

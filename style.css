@@ -4,6 +4,11 @@ body {
   font-size: 20px;
 }
 
+.container {
+  margin: 0 auto;
+  border: solid 2px black;
+}
+
 #entries {
   background: lightgoldenrodyellow;
   padding: 11em;
@@ -19,7 +24,7 @@ h1 {
 
 #button {
   border-radius: 5px;
-  padding: 1em;
+  padding: 2em;
   background: lightpink;
   margin: 3em;
   border: 1px black solid;
