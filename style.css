@@ -38,3 +38,40 @@ h1 {
   margin: 2em;
   color: black;
 }
+
+@media (max-width: 500px) {
+  #entries {
+    background: lightgoldenrodyellow;
+    padding: 5em;
+    border-radius: 25px;
+    margin: 2em;
+    outline: unset;
+  }
+
+  h1 {
+    margin: 2em;
+    font-size: 20px;
+  }
+
+  #button {
+    border-radius: 5px;
+    padding: 1em;
+    background: lightgreen;
+    margin: 3em;
+    border: 1px black solid;
+  }
+
+  #button:focus {
+    background: red;
+    color: blue;
+  }
+
+  .entryText {
+    background: lightpink;
+    border-radius: 10px;
+    padding: 2em;
+    width: 20%;
+    margin: 2em;
+    color: black;
+  }
+}
